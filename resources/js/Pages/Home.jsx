@@ -31,9 +31,12 @@ export default function Home() {
                 <Navbar />
                 <div className="w-full ps-14 pt-48 mb-60">
                     <h1 className="font-extrabold text-6xl mb-5">BURNING <br /> <span className="text-red-600">FOREST</span></h1>
-                    <h3 className="text-[20px] mb-5">Lorem ipsum dolor sit amet, consectetur <br /> adipisicing elit, sed do eiusmod
-                    tempor <br /> incididunt ut labore et dolore magna aliqua.</h3>
-                    <button className="rounded-2xl border-2 border-white px-4 py-2 transition duration-300 hover:text-red-600 hover:border-red-600">Explore Here</button>
+                    <h3 className="text-[20px] mb-5">Kebakaran hutan menghancurkan ribuan hektar setiap tahun, <br />
+                        mengancam ekosistem, satwa liar, dan kesehatan manusia. <br />
+                        Dengan meningkatnya intensitas kebakaran akibat perubahan iklim <br />
+                        dan aktivitas manusia, pemahaman akan penyebab dan pencegahannya menjadi <br />
+                        sangat penting. Mari bersama menjaga alam untuk masa depan yang lebih baik.</h3>
+                    <a href="/news" ><button className="rounded-2xl border-2 border-white px-4 py-2 transition duration-300 hover:text-red-600 hover:border-red-600"  >Explore Here</button></a>
                 </div>
                 <div className="w-full text-center">
                     <h2 className="font-extrabold text-6xl mb-5">BURNING <br /> <span className="text-red-600"> FOREST</span> </h2>
