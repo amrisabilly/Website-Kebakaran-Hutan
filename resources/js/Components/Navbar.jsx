@@ -1,20 +1,35 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, usePage } from '@inertiajs/react';
 import Logo from "../../../public/assets/Logo.svg";
 
 const Navbar = () => {
-  const { url } = usePage(); 
+  const { url } = usePage();
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const navLinks = [
     { path: '/', label: 'Home' },
     { path: '/news', label: 'News' },
     { path: '/about', label: 'About' },
     { path: '/gallery', label: 'Gallery' },
+    { path: '/education', label: 'Education' }
   ];
 
   return (
     <div>
-      <div className="w-full h-14 px-10 bg-transparent flex justify-between items-center font-inter text-white fixed z-30">
+      <div
+        className={`w-full h-14 px-10 flex justify-between items-center font-inter text-white fixed z-30 transition duration-300 ${
+          isScrolled ? 'bg-black' : 'bg-transparent'
+        }`}
+      >
         <div>
           <h1 className="font-bold text-3xl">SI<span className='italic'>MB</span></h1>
         </div>
