@@ -20,3 +20,4 @@ export const navlink = [
         text: "contact",
     },
 ]
+

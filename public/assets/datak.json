@@ -1,0 +1,14 @@
+[
+    { "label": "Januari", "jumlah": 120 },
+    { "label": "Februari", "jumlah": 150 },
+    { "label": "Maret", "jumlah": 200 },
+    { "label": "April", "jumlah": 170 },
+    { "label": "Mei", "jumlah": 140 },
+    { "label": "Juni", "jumlah": 180 },
+    { "label": "Juli", "jumlah": 190 },
+    { "label": "Agustus", "jumlah": 210 },
+    { "label": "September", "jumlah": 160 },
+    { "label": "Oktober", "jumlah": 220 },
+    { "label": "November", "jumlah": 230 },
+    { "label": "Desember", "jumlah": 250 }
+]

@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '@/Components/Navbar'
 import Footer from '@/Components/Footer'
 import Background from "../../../public/assets/Background.svg"
+import { Line } from 'react-chartjs-2';
 
 
 const News = () => {
