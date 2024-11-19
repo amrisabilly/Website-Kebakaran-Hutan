@@ -13,66 +13,89 @@ const Education = () => {
                 }}
             >
                 <Navbar />
-                <div className="w-full min-h-screen pt-24 flex justify-evenly gap-5">
-                    <div className='w-[33em] h-[50em] px-9 py-6' >
-                      <h1 className='font-bold text-4xl mb-5'>Edu<span className='text-red-600'>Cation</span></h1>
-                      <div className='w-[20em]'>
-                      <h3 className='mb-4'>Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</h3>
-                      </div>
-                      <div className='grid grid-cols-2 gap-8 items-center w-[20em]'>
-                        <div className='bg-white/20 rounded-md w-[11em] h-[15em] p-4 hover:scale-105 transform transition duration-300 ease-out'>
-                          <div className='bg-[#929292] w-[9em] h-[10em] rounded-md mb-1'></div>
-                          <h3 className='font-medium'>Name One</h3>
-                          <h3 className='text-white/40'>Backend Developer</h3>
-                        </div>
-                        <div className='bg-white/20 rounded-md w-[11em] h-[15em] p-4 ms-12 hover:scale-105 transform transition duration-300 ease-out'>
-                          <div className='bg-[#929292] w-[9em] h-[10em] rounded-md mb-1'></div>
-                          <h3 className='font-medium'>Name One</h3>
-                          <h3 className='text-white/40'>Backend Developer</h3>
-                        </div>
-                        <div className='bg-white/20 rounded-md w-[11em] h-[15em] p-4 hover:scale-105 transform transition duration-300 ease-out'>
-                          <div className='bg-[#929292] w-[9em] h-[10em] rounded-md mb-1'></div>
-                          <h3 className='font-medium'>Name One</h3>
-                          <h3 className='text-white/40'>Backend Developer</h3>
-                        </div>
-                        <div className='bg-white/20 rounded-md w-[11em] h-[15em] p-4 ms-12 hover:scale-105 transform transition duration-300 ease-out'>
-                          <div className='bg-[#929292] w-[9em] h-[10em] rounded-md mb-1'></div>
-                          <h3 className='font-medium'>Name One</h3>
-                          <h3 className='text-white/40'>Backend Developer</h3>
-                        </div>
-                      </div>
-                      
+                {/* First Column */}
+                <div className='container w-100% pt-14 px-14'>
+                    <p className='text-[63px] font-bold'>Education</p>
+                    <br />
+                </div>
+                
+                {/* Second Column */}
+                <div className='grid grid-cols-7 gap-40'>
+                    {/* First Row */}
+                    <div className='container col-span-3  h-[770px]  ps-14'>
+                       <div className='grid grid-cols-2 gap-12'>
+                            <div className='container h-[200px] grid grid-flow-col auto-cols-max gap-4'>
+                                {/* Vertical Line */}
+                                <div className='h-[229px] w-1 bg-white'></div>
+                                {/* Content */}
+                                <div className='container '>
+                                    <p className='text-[60px]'>01</p>
+                                    <br />
+                                    <p className='text-[28px]'>Definition</p>
+                                    <br />
+                                    <p className='w-[230px]'>Definition of Forest and Land Fires</p>
+                                </div>
+                            </div>
+                            <div className='container   grid grid-flow-col auto-cols-max gap-4'>
+                                {/* Vertical Line */}
+                                <div className='h-[229px] w-1 bg-white'></div>
+                                {/* Content */}
+                                <div className='container '>
+                                    <p className='text-[60px]'>02</p>
+                                    <br />
+                                    <p className='text-[28px]'>Reason</p>
+                                    <br />
+                                    <p className='w-[230px]'>Cause of Forest and Land Fires</p>
+                                </div>
+                            </div>
+                            <div className='container   grid grid-flow-col auto-cols-max gap-4'>
+                                {/* Vertical Line */}
+                                <div className='h-[229px] w-1 bg-white'></div>
+                                {/* Content */}
+                                <div className='container '>
+                                    <p className='text-[60px]'>03</p>
+                                    <br />
+                                    <p className='text-[28px]'>Countermeasures</p>
+                                    <br />
+                                    <p className='w-[230px]'>Forest and Land Fires Prevetion and Control</p>
+                                </div>
+                            </div>
+                            <div className='container   grid grid-flow-col auto-cols-max gap-4'>
+                                {/* Vertical Line */}
+                                <div className='h-[229px] w-1 bg-white'></div>
+                                {/* Content */}
+                                <div className='container '>
+                                    <p className='text-[60px]'>04</p>
+                                    <br />
+                                    <p className='text-[28px]'>Impact</p>
+                                    <br />
+                                    <p className='w-[230px]'>Impact of Forest and Land Fires</p>
+                                </div>
+                            </div>
+                            <div className='container   grid grid-flow-col auto-cols-max gap-4'>
+                                {/* Vertical Line */}
+                                <div className='h-[229px] w-1 bg-white'></div>
+                                {/* Content */}
+                                <div className='container '>
+                                    <p className='text-[60px]'>05</p>
+                                    <br />
+                                    <p className='text-[28px]'>Mitigation</p>
+                                    <br />
+                                    <p className='w-[230px]'>Mitigation of Forest and Land Fires</p>
+                                </div>
+                            </div>
+                       </div>
                     </div>
-                    <div className='w-[50em] h-[40em] py-5 px-5'>
-                      <h1 className='font-bold text-4xl mb-5'>About Website</h1>
-                      <h3 className='mb-9'>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
-                          <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+                    {/* Second Row */}
+                    <div className='col-span-4 container h-[770px]  '>
+                        <p className='text-[50px]'>Kebakaran <span className='text-red-600'>Hutan</span></p>
+                        <br />
+                        <p className='text-[18px]'>Kebakaran hutan merupakan peristiwa kebakaran yang terjadi di kawasan hutan, lahan, atau padang rumput, yang dapat disebabkan oleh faktor alami maupun aktivitas manusia. Beberapa penyebab utama kebakaran hutan meliputi pembukaan lahan secara ilegal dengan cara membakar, kelalaian dalam pengelolaan api, serta faktor cuaca ekstrem seperti kemarau panjang dan suhu yang sangat tinggi. Selain itu, perubahan iklim yang semakin tidak menentu turut memperburuk kondisi ini. Kebakaran hutan tidak hanya merusak lingkungan, tetapi juga mengancam kehidupan manusia dengan mengeluarkan asap yang berbahaya bagi kesehatan, serta menurunkan kualitas udara di area yang terdampak. Kehilangan keanekaragaman hayati dan kerusakan ekosistem yang ditinggalkan oleh kebakaran hutan dapat berlangsung dalam jangka waktu yang sangat lama dan mempengaruhi kehidupan flora dan fauna yang bergantung pada habitat tersebut.</p>
+                        <br />
+                        <p className='text-[18px]'>Dampak dari kebakaran hutan sangat besar, tidak hanya dalam hal kerusakan fisik, tetapi juga dalam aspek sosial dan ekonomi. Untuk menanggulangi kebakaran hutan, pemerintah dan masyarakat perlu bekerjasama dalam melakukan pencegahan yang lebih efektif, seperti membatasi penggunaan api untuk pembukaan lahan dan meningkatkan kesadaran akan pentingnya menjaga kelestarian hutan. Penggunaan teknologi canggih seperti pemantauan satelit untuk mendeteksi kebakaran sejak dini juga dapat membantu dalam pengendalian. Selain itu, mitigasi kebakaran hutan dapat dilakukan dengan reforestasi, yaitu penanaman kembali pohon-pohon di area yang terbakar, serta penerapan metode pertanian yang ramah lingkungan. Keterlibatan masyarakat juga sangat penting, dengan memberikan edukasi mengenai bahaya kebakaran hutan dan melibatkan mereka dalam kegiatan pencegahan. Langkah-langkah ini diharapkan dapat mengurangi intensitas kebakaran hutan dan dampaknya di masa depan.</p>
                     </div>
                 </div>
+                
                 <Footer />
             </div>
   )
