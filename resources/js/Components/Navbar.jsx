@@ -31,7 +31,7 @@ const Navbar = () => {
         }`}
       >
         <div>
-          <h1 className="font-bold text-3xl">SI<span className='italic'>MB</span></h1>
+          <h1 className="font-bold text-3xl">Fire<span className='italic'>track</span></h1>
         </div>
         <div className="flex items-center gap-14 font-semibold text-[20px]">
           {navLinks.map((link) => (

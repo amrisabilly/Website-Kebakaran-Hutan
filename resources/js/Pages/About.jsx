@@ -24,37 +24,37 @@ const About = () => {
                         <div className='bg-white/20 rounded-md w-[11em] h-[15em] p-4 hover:scale-105 transform transition duration-300 ease-out'>
                           <div className='bg-cover w-[9em] h-[10em] rounded-md mb-1' 
                             style={{
-                                    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${mahendra})`,
+                                    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://assets.jalantikus.com/assets/cache/560/521/userfiles/2020/10/05/foto-profil-d2983.jpg)`,
                             }}
                           ></div>
-                          <h3 className='font-medium'>Alif Bima Mahendra</h3>
+                          <h3 className='font-medium'>James Bone</h3>
                           <h3 className='text-white/40'>Fullstack Developer</h3>
                         </div>
                         <div className='bg-white/20 rounded-md w-[11em] h-[15em] p-4 ms-12 hover:scale-105 transform transition duration-300 ease-out'>
                           <div className='bg-cover w-[9em] h-[10em] rounded-md mb-1'
                             style={{
-                              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${mahendra})`,
+                              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://assets.jalantikus.com/assets/cache/560/521/userfiles/2020/10/05/foto-profil-d2983.jpg)`,
                             }}
                           ></div>
-                          <h3 className='font-medium'>Alif Bima Mahendra</h3>
+                          <h3 className='font-medium'>James Bone</h3>
                           <h3 className='text-white/40'>FrontEnd Developer</h3>
                         </div>
                         <div className='bg-white/20 rounded-md w-[11em] h-[15em] p-4 hover:scale-105 transform transition duration-300 ease-out'>
                           <div className='bg-cover w-[9em] h-[10em] rounded-md mb-1'
                             style={{
-                              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${mahendra})`,
+                              backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://assets.jalantikus.com/assets/cache/560/521/userfiles/2020/10/05/foto-profil-d2983.jpg)`,
                             }}
                           ></div>
-                          <h3 className='font-medium'>Alif Bima Mahendra</h3>
+                          <h3 className='font-medium'>James Bone</h3>
                           <h3 className='text-white/40'>Backend Developer</h3>
                         </div>
                         <div className='bg-white/20 rounded-md w-[11em] h-[15em] p-4 ms-12 hover:scale-105 transform transition duration-300 ease-out'>
                           <div className='bg-cover w-[9em] h-[10em] rounded-md mb-1'
                           style={{
-                            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${mahendra})`,
+                            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://assets.jalantikus.com/assets/cache/560/521/userfiles/2020/10/05/foto-profil-d2983.jpg)`,
                           }}
                           ></div>
-                          <h3 className='font-medium'>Name One</h3>
+                          <h3 className='font-medium'>James Bone</h3>
                           <h3 className='text-white/40'>Backend Developer</h3>
                         </div>
                       </div>
